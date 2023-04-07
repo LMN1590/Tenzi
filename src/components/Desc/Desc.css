@@ -1,0 +1,14 @@
+.desc > h2{
+    font-family:'Karla';
+    font-weight: bold;
+    font-size:25px;
+}
+.desc > p{
+    font-family: serif;
+    font-size:20px;
+    padding:0px 20px;
+}
+.desc{
+    text-align: center;
+    margin-top:20px;
+}

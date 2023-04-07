@@ -1,0 +1,122 @@
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:60%;
+    margin:25px auto;
+    padding:0px 15px;
+}
+.num{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.num>span{
+    font-family: 'Karla';
+    font-weight: bold;
+}
+.roll{
+    margin-top:25px;
+    text-align: center;
+    
+}
+.roll > button{
+    padding:20px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    color:white;
+    background-color: #5035FF;
+    border-radius: 5px;
+    border:none;
+}
+
+.num.checked{
+    background-color: greenyellow;
+}
+.res{
+    margin-top:25px;
+    text-align: center;
+    font-family: serif;
+}
+.res.invi{
+    display:none;
+}
+@media screen and (max-width: 1600px) {
+    .num{
+        width:50px;
+        height:50px;
+    }
+    .res {
+       font-size: 40px;
+    }
+    .num>span{
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .num{
+        width:40px;
+        height:40px;
+    }
+    .res {
+        margin-top:30px;
+        font-size: 30px;
+    }
+    .num>span{
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .row{
+        width:80%;
+    }
+    .num{
+        width:40px;
+        height:40px;
+    }
+    .res {
+        margin-top:20px;
+        font-size: 25px;
+    }
+    .num>span{
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .row{
+        width:90%;
+    }
+    .num{
+        width:35px;
+        height:35px;
+    }
+    .res {
+        margin-top:20px;
+        font-size: 25px;
+    }
+    .num>span{
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 275px) {
+    .row{
+        width:100%;
+        padding:0px;
+    }
+    .num{
+        width:27px;
+        height:27px;
+    }
+    .res {
+        margin-top:20px;
+        font-size: 20px;
+    }
+    .num>span{
+        font-size:20px;
+    }
+}
