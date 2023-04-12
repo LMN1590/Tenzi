@@ -10,6 +10,14 @@
       "StackName": "amplify-tenzi-master-94514",
       "StackId": "arn:aws:cloudformation:eu-central-1:406960897614:stack/amplify-tenzi-master-94514/f7371700-d905-11ed-8c66-0622f10106ce",
       "AmplifyAppId": "d3vr8div55bfh0"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3vr8div55bfh0",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
