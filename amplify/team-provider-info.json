@@ -1,0 +1,15 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tenzi-master-94514-authRole",
+      "UnauthRoleArn": "arn:aws:iam::406960897614:role/amplify-tenzi-master-94514-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::406960897614:role/amplify-tenzi-master-94514-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-tenzi-master-94514-deployment",
+      "UnauthRoleName": "amplify-tenzi-master-94514-unauthRole",
+      "StackName": "amplify-tenzi-master-94514",
+      "StackId": "arn:aws:cloudformation:eu-central-1:406960897614:stack/amplify-tenzi-master-94514/f7371700-d905-11ed-8c66-0622f10106ce",
+      "AmplifyAppId": "d3vr8div55bfh0"
+    }
+  }
+}
