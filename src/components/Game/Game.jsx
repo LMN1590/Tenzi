@@ -46,6 +46,7 @@ export default function Game({dices,setDices}){
     }
     const [checkVar,setCheck]=React.useState(check());
     React.useEffect(()=>{
+        console.log("fck");
         setCheck(check());
     })
     return(
